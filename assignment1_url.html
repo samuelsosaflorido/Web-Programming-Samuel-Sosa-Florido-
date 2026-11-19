@@ -114,11 +114,22 @@
             }
 
             img {
+                float: center; 
+                margin: 0 1rem 1rem 0; 
                 display: block;
                 margin-top: 20px;
                 border-radius: 6px;
-                max-width: 1000px;
+                max-width: 500px;
+                max-height: 500px;
                 box-shadow: 0 1px 3px;
+                object-fit: cover; 
+                object-position: center top;  
+
+            }
+
+            .floating_element {
+                float: left; 
+                width: 30%; 
             }
         </style>
     </head>
@@ -154,7 +165,7 @@
 
             <p>Also, as a kid I have always found fascinating the way we can create new worlds and stories through video games or other forms of media. I have been always heavily inspired by authors such as Tolkien or games like RuneScape</p>
 
-            <img src="images/runescape.jpg" alt="RuneScape image">
+            <p><img src="images/runescape.jpg" alt="RuneScape image"></p>
 
             <p>These forms of media, either literature, films or games, had a great impact on me which made me work on my own personal project: the Chronicles of Gernesk, which I have been developing since I was 12 years old</p>
 
